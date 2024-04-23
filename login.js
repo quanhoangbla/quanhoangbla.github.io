@@ -12,7 +12,7 @@ function login(){
             localStorage.setItem('password',pass);            
             if (users[user]==pass){
                 alert("Login Succesful!");
-                window.location.href='index.html';
+                window.location.href='https://quanvippro.site/';
             }else{
                 alert("Login Failed, Please try again.");
             }
