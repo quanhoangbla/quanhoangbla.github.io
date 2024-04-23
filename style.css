@@ -9,6 +9,16 @@
     border-radius: 10px;
     box-shadow: 5px 10px 10px black;
 }
+.div5{
+    width: 100%;
+    height: 30%;
+    background-color: wheat;
+    height: max-content;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px black;
+}
 .div404{
     width: 100%;
     height: 100%;
@@ -16,6 +26,12 @@
     text-align: center;
     border-radius: 10px;
     box-shadow: 5px 10px 10px black;
+}
+.text3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5vw;
+    color: white;
+    text-shadow: 5px 5px 10px black;
 }
 .text1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -59,4 +75,22 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.button1{
+    background-color: wheat;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: black;
+    width: 300px;
+    box-shadow: 5px 10px 10px black;
+}
+.text-shadow{
+    text-shadow: 5px 5px 10px black;
+}
+.box-shadow{
+    box-shadow: 5px 5px 10px black;
+}
+.space-10px{
+    padding-bottom: 10px;
 }
