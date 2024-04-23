@@ -7,7 +7,8 @@ rawFile.onreadystatechange = function() {
     if (rawFile.readyState === 4) {
         users = JSON.parse(rawFile.responseText);
         if (users[user]!=pass){
-            window.location.href='login.html';
+            // window.location.href='login.html';
+            alert('nuh uh')
         }
     }
 }
