@@ -1,4 +1,4 @@
-if (document.cookie){
+if (localStorage.getItem('username')){
     var user=localStorage.getItem('username');
     var pass=localStorage.getItem('password');
     var users={}
