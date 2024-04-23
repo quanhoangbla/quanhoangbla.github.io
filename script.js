@@ -1,3 +1,9 @@
+if (localStorage.getItem('username')==null){
+    localStorage.setItem('username','')
+}
+if (localStorage.getItem('password')==null){
+    localStorage.setItem('password','')
+}
 var user=localStorage.getItem('username');
 var pass=localStorage.getItem('password');
 var users={}
