@@ -4,7 +4,7 @@ function login(){
     var pass=document.getElementById("pwd").value;
     var users={}
     var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", '.'+a[4**2-10]+'it'+'/'+a[10+2**2*5/(2+3)]+'bject'+a[20-2]+'/dep.json', true);
+    rawFile.open("GET", '.'+a[4**2-10]+'it'+'/'+a[10+2**2*5/(2+3)]+'bject'+a[20-2]+'/users.json', true);
     rawFile.onreadystatechange = function() {
         if (rawFile.readyState === 4) {
             users = JSON.parse(rawFile.responseText);
