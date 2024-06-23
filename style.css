@@ -5,9 +5,10 @@
     height: max-content;
     max-height: 300px;
     text-align: center;
-    position: relative;
     border-radius: 10px;
     box-shadow: 5px 10px 10px black;
+    position: relative;
+    top: -40px;
 }
 .div5{
     width: 100%;
@@ -68,7 +69,11 @@
 }
 .text2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.8vw;
+    font-size: 1.7vw;
+}
+.text4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4vw;
 }
 body{
     background-image: image-set("background.jpg");
